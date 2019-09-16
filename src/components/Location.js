@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Location =()=>{
+const Location =({city})=>{
+
     return(
-        <div>            
-            San Salvador            
+        <div>
+            {city}
         </div>
     );
 };
-
 
 export default Location;
